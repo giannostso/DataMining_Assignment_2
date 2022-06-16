@@ -1,0 +1,189 @@
+----------
+LOWERCASED
+----------
+CONTRACTIONED
+----------
+NO PUNCTUATION
+----------
+NO STOPWORDS
+----------
+NO FREQ WORDS
+----------
+LEMMATIZATION
+----------
+---------
+C= 0.01    P= l1
+Unigram model
+Accuracy score:  0.5
+Precision score:  0.0
+Recall score: 0.0
+F1 score: 0.0
+Confusion Matrix: [[80  0]
+ [80  0]]
+
+Bigram model
+Accuracy score:  0.5
+Precision score:  0.0
+Recall score: 0.0
+F1 score: 0.0
+Confusion Matrix: [[80  0]
+ [80  0]]
+---------
+C= 0.01    P= l2
+Unigram model
+Accuracy score:  0.85
+Precision score:  0.8181818181818182
+Recall score: 0.9
+F1 score: 0.8571428571428572
+Confusion Matrix: [[64 16]
+ [ 8 72]]
+
+Bigram model
+Accuracy score:  0.85
+Precision score:  0.8043478260869565
+Recall score: 0.925
+F1 score: 0.8604651162790697
+Confusion Matrix: [[62 18]
+ [ 6 74]]
+---------
+C= 0.1    P= l1
+Unigram model
+Accuracy score:  0.5
+Precision score:  0.0
+Recall score: 0.0
+F1 score: 0.0
+Confusion Matrix: [[80  0]
+ [80  0]]
+
+Bigram model
+Accuracy score:  0.5
+Precision score:  0.0
+Recall score: 0.0
+F1 score: 0.0
+Confusion Matrix: [[80  0]
+ [80  0]]
+---------
+C= 0.1    P= l2
+Unigram model
+Accuracy score:  0.8625
+Precision score:  0.881578947368421
+Recall score: 0.8375
+F1 score: 0.8589743589743589
+Confusion Matrix: [[71  9]
+ [13 67]]
+
+Bigram model
+Accuracy score:  0.86875
+Precision score:  0.8554216867469879
+Recall score: 0.8875
+F1 score: 0.8711656441717791
+Confusion Matrix: [[68 12]
+ [ 9 71]]
+---------
+C= 1    P= l1
+Unigram model
+Accuracy score:  0.775
+Precision score:  0.7972972972972973
+Recall score: 0.7375
+F1 score: 0.7662337662337663
+Confusion Matrix: [[65 15]
+ [21 59]]
+
+Bigram model
+Accuracy score:  0.6625
+Precision score:  0.6710526315789473
+Recall score: 0.6375
+F1 score: 0.6538461538461537
+Confusion Matrix: [[55 25]
+ [29 51]]
+---------
+C= 1    P= l2
+Unigram model
+Accuracy score:  0.8875
+Precision score:  0.918918918918919
+Recall score: 0.85
+F1 score: 0.8831168831168831
+Confusion Matrix: [[74  6]
+ [12 68]]
+
+Bigram model
+Accuracy score:  0.875
+Precision score:  0.875
+Recall score: 0.875
+F1 score: 0.875
+Confusion Matrix: [[70 10]
+ [10 70]]
+---------
+C= 10    P= l1
+Unigram model
+Accuracy score:  0.8125
+Precision score:  0.8472222222222222
+Recall score: 0.7625
+F1 score: 0.8026315789473685
+Confusion Matrix: [[69 11]
+ [19 61]]
+
+Bigram model
+Accuracy score:  0.8
+Precision score:  0.8076923076923077
+Recall score: 0.7875
+F1 score: 0.7974683544303798
+Confusion Matrix: [[65 15]
+ [17 63]]
+---------
+C= 10    P= l2
+Unigram model
+Accuracy score:  0.86875
+Precision score: 0.8933333333333333
+Recall score: 0.8375
+F1 score: 0.8645161290322579
+Confusion Matrix: [[72  8]
+ [13 67]]
+
+Bigram model
+Accuracy score:  0.88125
+Precision score:  0.8860759493670886
+Recall score: 0.875
+F1 score: 0.8805031446540881
+Confusion Matrix: [[71  9]
+ [10 70]]
+---------------
+set()
+set()
+---------------
+---------
+C= 100    P= l1
+Unigram model
+Accuracy score:  0.7875
+Precision score:  0.7948717948717948
+Recall score: 0.775
+F1 score: 0.7848101265822786
+Confusion Matrix: [[64 16]
+ [18 62]]
+
+Bigram model
+Accuracy score:  0.8
+Precision score:  0.8333333333333334
+Recall score: 0.75
+F1 score: 0.7894736842105262
+Confusion Matrix: [[68 12]
+ [20 60]]
+---------
+C= 100    P= l2
+Unigram model
+Accuracy score:  0.85625
+Precision score:  0.88
+Recall score: 0.825
+F1 score: 0.8516129032258064
+Confusion Matrix: [[71  9]
+ [14 66]]
+
+Bigram model
+Accuracy score:  0.875
+Precision score:  0.875
+Recall score: 0.875
+F1 score: 0.875
+Confusion Matrix: [[70 10]
+ [10 70]]
+BEST UNIGRAM has C= 1  and penalty= l2
+BEST BIGRAM has C= 10  and penalty= l2

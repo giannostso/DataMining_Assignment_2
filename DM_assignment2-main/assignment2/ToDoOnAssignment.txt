@@ -1,0 +1,34 @@
+-We will use 800 negative reviews (400 real, 400 fake). Each of the 400 are seperated on 5 folds in files.
+	Use python to zip the folds from real and fake and shuffle them.
+	Keep the 5 folds as there are seperated because of cross validation.
+
+-Preprocessing WELL DESCRIBED and give a reason behind each step.
+	Stop words ?
+	Stemming ?
+	lowercase ?
+	keep rare or overused words?
+	more??
+	** SEE examples of preprocessing for nltk to get an idea.
+	
+-Use 4 algorithms :	1. Multinomial naive Bayes (generative linear classier),
+			2. Regularized logistic regression (discriminative linear classier),
+			3. Classication trees, (exible classier) and
+			4. Random forests (exible classier).
+	All 4 for unigram & bigram -> 8 models in total.
+	For each use cross validation and hyper-parameters tuning to get the best results.
+
+	**ON every decision so far on the project we need proper explanation and motivation!!!
+
+-accuracy, precision, recall, f1 score on each one of them.
+	Compare everything [see questions to be answered to get and idea], on accuracy use statistical test.
+	** Compare on each alg the unigram and bigram models and the models between them also.
+
+	** From models that show most improtant feautures --> extract the most important features for fake and real 	reviews
+
+- FOR REPORT: 	
+	there should be a proper introduction motivating the problem, a section describing the data that was used 	in the study, a section describing the setup of the experiments and their results, and a section in which 	the conclusions are presented.
+
+	*NO PAGE LIMIT --> explanation and motivation in depth.
+	*SEE suggested papers for general idea of how to write and structure our paper.
+
+	
